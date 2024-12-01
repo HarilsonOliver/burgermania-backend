@@ -1,7 +1,8 @@
 
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-    [Route("api/[controller]")]
+[Route("api/[controller]")]
     [ApiController]
     public class CategoriaController : ControllerBase
     {
@@ -21,7 +22,10 @@ using Microsoft.AspNetCore.Mvc;
         [HttpGet("{id}")]
         public ActionResult<Categoria> GetCategoria(int id)
         {
-            var categoria = _context.Categorias.Find(id);
+            var categoria = _context.Categorias
+                                    .Include(c => c.Produtos)
+                                    .FirstOrDefault(c => c.Id == id);
+
             if (categoria == null) return NotFound();
             return Ok(categoria);
         }

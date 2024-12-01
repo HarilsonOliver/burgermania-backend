@@ -4,6 +4,7 @@ public class Categoria
 	public string Nome { get; set; } = string.Empty;
 	public string Descricao { get; set; } = string.Empty;
 	public string PathImage { get; set; }  = string.Empty;
+	public ICollection<Produto> Produtos { get; set; } = new List<Produto>();
 
 
 }
