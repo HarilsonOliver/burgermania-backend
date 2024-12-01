@@ -169,3 +169,4 @@ C:\Users\Harilson\Documents\Projetos\residencia\BurgerMania\burgermania-backend\
 C:\Users\Harilson\Documents\Projetos\residencia\BurgerMania\burgermania-backend\obj\Debug\net8.0\burgermania-backend.pdb
 C:\Users\Harilson\Documents\Projetos\residencia\BurgerMania\burgermania-backend\obj\Debug\net8.0\burgermania-backend.genruntimeconfig.cache
 C:\Users\Harilson\Documents\Projetos\residencia\BurgerMania\burgermania-backend\obj\Debug\net8.0\ref\burgermania-backend.dll
+C:\Users\Harilson\Documents\Projetos\residencia\BurgerMania\burgermania-backend\obj\Debug\net8.0\burgermania-backend.sourcelink.json

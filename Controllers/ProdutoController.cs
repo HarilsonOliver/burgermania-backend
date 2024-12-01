@@ -1,7 +1,8 @@
 
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-    [Route("api/[controller]")]
+[Route("api/[controller]")]
     [ApiController]
     public class ProdutoController : ControllerBase
     {
