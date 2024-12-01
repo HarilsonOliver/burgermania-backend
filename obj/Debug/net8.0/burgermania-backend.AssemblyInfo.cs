@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("burgermania-backend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d47591fb522394dcc03ef880420e0ad3db9506b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+321f20dc8a64abd840931580fd4c2fdedead5348")]
 [assembly: System.Reflection.AssemblyProductAttribute("burgermania-backend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("burgermania-backend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
