@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace burgermania_backend.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241203181839_PcRemoto")]
+    partial class PcRemoto
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -43,29 +46,6 @@ namespace burgermania_backend.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categorias");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Descricao = "Para os amantes da vida animal.",
-                            Nome = "X-Vegan",
-                            PathImage = "/burgersCat.png"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Descricao = "Vestuário e acessórios",
-                            Nome = "X-Fitness",
-                            PathImage = "/burgersCat.png"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Descricao = "Comidas e bebidas",
-                            Nome = "X-Infarto",
-                            PathImage = "/burgersCat.png"
-                        });
                 });
 
             modelBuilder.Entity("Pedido", b =>
@@ -151,38 +131,6 @@ namespace burgermania_backend.Migrations
                     b.HasIndex("CategoriaId1");
 
                     b.ToTable("Produtos");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            CategoriaId = 1,
-                            DescricaoBase = "Simples e Saudável",
-                            DescricaoInteira = "Constituido apenas de folhas frescas, Pão, blend de soja e azeite.",
-                            Nome = "X-Salada",
-                            PathImage = "/burgersCat.png",
-                            Preco = 20.00m
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CategoriaId = 2,
-                            DescricaoBase = "Proteinado",
-                            DescricaoInteira = "Contem Pão, Queijos, Blend de Carnes Vermelhas e Brancas, Molho de Whey e Adicional do Suco. ",
-                            Nome = "X-Whey",
-                            PathImage = "/burgersCat.png",
-                            Preco = 50.00m
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CategoriaId = 3,
-                            DescricaoBase = "Chama o  SAMU",
-                            DescricaoInteira = "Pão  frito, Hamburger frito, Bacon frito e torrado, ovo frito, cebola frita e maionese temperada.",
-                            Nome = "X-Bacon Torrado",
-                            PathImage = "/burgersCat.png",
-                            Preco = 80.00m
-                        });
                 });
 
             modelBuilder.Entity("Status", b =>

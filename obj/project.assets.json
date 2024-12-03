@@ -12156,27 +12156,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Harilson\\.nuget\\packages\\": {}
+    "C:\\Users\\CPDS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Harilson\\Documents\\Projetos\\residencia\\BurgerMania\\burgermania-backend\\burgermania-backend.csproj",
+      "projectUniqueName": "C:\\Users\\CPDS\\Documents\\Projects\\Residencia\\Burgermania\\burgermania-backend\\burgermania-backend.csproj",
       "projectName": "burgermania-backend",
-      "projectPath": "C:\\Users\\Harilson\\Documents\\Projetos\\residencia\\BurgerMania\\burgermania-backend\\burgermania-backend.csproj",
-      "packagesPath": "C:\\Users\\Harilson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Harilson\\Documents\\Projetos\\residencia\\BurgerMania\\burgermania-backend\\obj\\",
+      "projectPath": "C:\\Users\\CPDS\\Documents\\Projects\\Residencia\\Burgermania\\burgermania-backend\\burgermania-backend.csproj",
+      "packagesPath": "C:\\Users\\CPDS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\CPDS\\Documents\\Projects\\Residencia\\Burgermania\\burgermania-backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Harilson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\CPDS\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
